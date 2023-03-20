@@ -6601,7 +6601,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1437617159}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ConnectionManager, Assembly-CSharp
         m_MethodName: StartHost
         m_Mode: 1
@@ -6734,7 +6734,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1437617159}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ConnectionManager, Assembly-CSharp
         m_MethodName: StartServer
         m_Mode: 1
@@ -15194,7 +15194,6 @@ GameObject:
   - component: {fileID: 1437617157}
   - component: {fileID: 1437617158}
   - component: {fileID: 1437617155}
-  - component: {fileID: 1437617159}
   - component: {fileID: 1437617162}
   - component: {fileID: 1437617161}
   - component: {fileID: 1437617160}
@@ -15307,18 +15306,6 @@ MonoBehaviour:
     PacketDelayMS: 0
     PacketJitterMS: 0
     PacketDropRate: 0
---- !u!114 &1437617159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437617153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f94affc743afedc4fbf120db23ac05b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1437617160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15921,7 +15908,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1437617159}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ConnectionManager, Assembly-CSharp
         m_MethodName: StartClient
         m_Mode: 1
