@@ -1,0 +1,78 @@
+# Vorhandene Events
+E~ [je 3 Stück] Dürre		  => auf Gemüse wirkt entprechendes Wetterattribut
+E~ [je 3 Stück] Frost		  => auf Gemüse wirkt entprechendes Wetterattribut
+E~ [je 3 Stück] Maulwurfsgrille => jede Spielperson muss beim Ernten ein vollständiges Gemüse opfern
+
+
+# Vorhandene Aktionen
+A~ [je 6 Stück] Dünger		 => ergänzt ein fehlender Teil eines Gemüses
+A~ [je 6 Stück] Glashaus	 => Wetterattribute der Gemüse werden neutralisiert
+A~ [je 6 Stück] Insektizid	 => Schädlinge (Maulwurfsgrille) werden neutralisiert
+
+
+# Vorhandenes Gemüse
+G~ [je 5 Stück] Radieschen	=> 1 Teil
+G~ [je 6 Stück] Kartoffel	=> 1 Teil
+G~ [je 2 Stück] Ingwer		=> 2 Teile
+G~ [je 3 Stück] Roto Bete	=> 2 Teile
+G~ [je 3 Stück] Rübe		=> 2 Teile
+G~ [je 3 Stück] Sellerie	=> 2 Teile
+G~ [je 2 Stück] Pastinake	=> 3 Teile (optional: Teil 2)
+G~ [je 3 Stück] Karotte		=> 3 Teile (optional: Teil 2)
+
+
+## Neue Kartenvorschläge:
+* Diebstahl		=> eine beliebige Karte einer Spielperson kann entwendet werden
+* Schnecke		=> alle Gemüse einer Spielperson verlieren ihre Grünteile
+* Grüner Daumen	=> von jeder Spielperson kann das Gemüseteil auf dem Kompost wiederverwendet werden
+* Brennglas		=> ein Gemüse einer Speilperson verliert ihr Grünteil
+* Blattläuse	=> Erntepunkte einer Spielperson wird für ein Gemüse (mit Grünteil) halbiert (abgerundet)
+* Zauberbohnen	=> eine beliebe Gemüsekarte muss mit einer anderen Spielperson getauscht werden
+* Salz		=> eine Spielperson verliert einen ihrer Dünger
+* Gemüse: Spargel => 2 Teile unter Erde, 1 Teil über Erde
+
+
+## Balancing Vorschläge
+! Mehr Gemüsekarten (Sorten?) => Kombos schwerer machen
+! Actionskarten => 2: 1x, +2: 2x, +2: 3x
+! Spielkarten-Merge oder Runde ändern?
+! Komposthaufen => 4 Gemüseteile aus Garten (nicht geerntet) ergeben 1 Dünger für nächste Runde
+G~ Radieschen	=> 1 Teil	(je 5 Stück)
+G~ Kartoffel	=> 1 Teil	(je 6 Stück)
+G~ Ingwer		=> 2 Teile	(je 2 Stück)
+G~ Roto Bete	=> 2 Teile	(je 3 Stück)	[grünteil]
+G~ Rübe		=> 2 Teile	(je 3 Stück)	[grünteil]
+G~ Sellerie		=> 2 Teile	(je 3 Stück)	[grünteil]
+G~ Pastinake	=> 3 Teile	(je 2 Stück)	[optional: Teil 2][grünteil]
+G~ Karotte		=> 3 Teile	(je 3 Stück)	[optional: Teil 2][grünteil]
+
+
+# Sonstige Ideen:
+? Ende des Spiels (3 Runden) => Bonuspunkte für "Einmaliges Angebot" jeder Gemüsevariante, die Mitspielen nicht besitzen
+? Zweiter Aktion-Slot (nicht unbedingt gleiche Karten)
+? Namings: "Zug"=>"Saat ausbringen", "Runde (1-N)"=>Ernte (1-N), Spielende=>"Erntedank"
+? 4 Runden => Winter, Frühling, Sommer, Herbst
+? A~ "Gier" => ermöglicht das ziehen einer weiteren Karte aus dem Deck
+
+# Glossar
+E~ => Eventkarte
+A~ => Aktionskarte
+G~ => Gemüsekarte
+! => Umsetzung geplant
+? => Überlegungen
+
+
+$ Karten: 6 * Spieler (5, 10, 15, 20, 25, 30)
+1  2  3  4  5
+6  7  8  9  10
+	1 7 3 9 5		<= 3x own card
+11 12 13 14 15
+	1 7 13 4 10		<= 2x own card
+16 17 18 19 20
+	1 7 13 19 5		<= 2x own card
+21 22 23 24 25
+	1 7 13 19 25	<== limit P5
+26 27 28 29 30
+	1 7 13 19 25
+31 32 33 34 35
+	1 7 13 19 25

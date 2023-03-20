@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83df35862d8302d4d8f0700c38c25919, type: 3}
+  m_Name: Turnip
+  m_EditorClassIdentifier: 
+  name: Turnip
+  groupId: 8
+  elements:
+  - artwork: {fileID: 21300000, guid: a756b1752c15c0745b3f0b9243ce083f, type: 3}
+    optional: 0
+  - artwork: {fileID: 21300000, guid: 22a469599be635e49b8b0cb3a5d00c6e, type: 3}
+    optional: 0
+  elementIndex: 0
+  groupOrder: 0
+  groupStack: 0
+  weather: 0

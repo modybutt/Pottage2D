@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83df35862d8302d4d8f0700c38c25919, type: 3}
+  m_Name: Carrot
+  m_EditorClassIdentifier: 
+  name: Carrot
+  groupId: 2
+  elements:
+  - artwork: {fileID: 21300000, guid: a2aaab2c500cc114c8623303c8cc9836, type: 3}
+    maxStacks: 0
+  - artwork: {fileID: 21300000, guid: 491a6be66d89ae54c97235df6151b306, type: 3}
+    maxStacks: 0
+  - artwork: {fileID: 21300000, guid: 57ea867113420dd46bb406c110bc77bb, type: 3}
+    maxStacks: 0
+  elementIndex: 0
+  weather: 0
